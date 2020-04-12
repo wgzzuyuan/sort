@@ -123,7 +123,7 @@ void heap_sort(int tree[],int n){
 	}
 }
 int main(){
-#ifdef 0
+
 	int tree[]={4,10,3,5,1,2};
 	int n=6;
 	heap_sort(tree,n);
@@ -131,7 +131,7 @@ int main(){
 	for(i=0; i<n; i++; ){
 		printf("%d\n",arr[i]);
 	}
-#endif
+
 	return 0;
 
 }

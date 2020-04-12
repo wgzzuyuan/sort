@@ -129,7 +129,7 @@ int main(){
 	heap_sort(tree,n);
 	static int i=0;
 	for(i=0; i<n; i++; ){
-		printf("%d\n",arr[i]);
+		printf("%d\n",tree[i]);
 	}
 
 	return 0;

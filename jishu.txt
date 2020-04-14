@@ -1,0 +1,33 @@
+计数排序是一个非基于比较的排序算法，分治策略
+1，什么是有限偏序集S？？？
+
+2，能利用完全二叉树特性的排序一般性能都不会太差
+
+3，
+
+4，
+
+
+用python学算法的好处就是语法简单，直接明了的理解算法的思想
+以下是python 的排序方法：
+
+ def sort(a):
+     n=len(a)
+     b=[None]*n
+     for i in range(n):
+          p=0
+          q=0
+          for j in range(n):
+               if a[j]<a[i]:
+                    p+=1
+               elif a[j]==a[i]:
+                    q+=1
+          for k in range(p,p+q):
+               b[k]=a[i]
+     print b
+
+
+
+
+
+

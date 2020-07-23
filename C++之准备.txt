@@ -1,0 +1,25 @@
+1，引用 和指针的区别？？？
+
+
+2，在头文件中用这个命名空间，什么功能，作用？？？
+namespace Ui {
+class led;
+}
+
+
+3，explicit 的功能？？？
+public:
+    explicit led(QWidget *parent = 0);
+    ~led();
+    
+    
+4，头文件中这样去声明一个类中的指向
+private:
+    Ui::led *ui;
+Ui是个命名空间，ui指向了类led.
+
+
+5，
+
+
+

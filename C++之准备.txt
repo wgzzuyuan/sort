@@ -20,6 +20,19 @@ Ui是个命名空间，ui指向了类led.
 
 
 5，
+奇怪的是，C++都是一些调用，那么具体的实现在哪里？？？
+
+因为C++什么东西都写好了，你要做的主要是调用库函数，所以你基本上看不到任何东西。
+
+6，QT常用的API：
+setGeometry (9,9, 50, 25) 从屏幕上(9,9)位置开始(即为最左上角的点),显示一个50*25的界面(宽50,高25)
+setObjectName() 设置控件名字
+
+retranslateUi() 
+retranslateUi 这个函数不是 Qt 的库函数，而是当你使用QtDesigner创建的窗口时，由 uic 程序自动生成的。主要的功能是：setWindowTitle，setText
+
+
+7，
 
 
 
